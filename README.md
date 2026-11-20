@@ -2,12 +2,6 @@
 
 Tern 路径收藏插件：在当前 tab 的分屏面板显示当前工作路径、搜索已收藏目录，并在新 tab 中打开收藏目录。
 
-## 安装
-
-```sh
-tern plugin link ~/Documents/github/path-favorites
-```
-
 ## 使用
 
 - 状态栏的「收藏」按钮、palette，或 `ctrl+alt+shift+f`：在当前 tab 右侧打开路径面板。
