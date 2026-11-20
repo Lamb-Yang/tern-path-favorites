@@ -1,0 +1,58 @@
+/* Path Favorites — 所有选择器限定在本插件 surface 内。 */
+[data-surface="plugin.path-favorites.favorites"] .sf-main {
+	padding: 8px 10px 10px;
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-current"] {
+	margin: 2px 2px 8px;
+	color: var(--t4);
+	font-size: 12px;
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-head"] {
+	align-items: center;
+}
+
+[data-surface="plugin.path-favorites.favorites"] input {
+	margin: 2px 2px 8px;
+	font-size: 13px;
+	border-radius: 8px;
+	background: var(--l1);
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-count"] {
+	color: var(--t3);
+	font-size: 12px;
+	font-variant-numeric: tabular-nums;
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-row"] {
+	padding: 8px 10px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-row"]:hover {
+	background: var(--l1);
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-row"][data-tone="accent"] {
+	background: color-mix(in srgb, var(--accent) 9%, transparent);
+	border-color: color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-name"] {
+	color: var(--t1);
+	font-size: 13.5px;
+	font-weight: 550;
+}
+
+[data-surface="plugin.path-favorites.favorites"] [data-role="pf-path"] {
+	color: var(--t4);
+	font-size: 11.5px;
+}
+
+[data-surface="plugin.path-favorites.favorites"] .sf-dock {
+	padding: 6px 12px;
+	border-top: 1px solid var(--l1);
+}

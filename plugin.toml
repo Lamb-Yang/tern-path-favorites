@@ -1,0 +1,15 @@
+schema = 1
+id = "path-favorites"
+name = "Path Favorites"
+version = "0.1.0"
+description = "收藏工作路径，并在新 tab 中快速打开。"
+icon = "star"
+styles = ["css/style.css"]
+host = "host.luau"
+window = "window.luau"
+
+[[blocks]]
+id = "favorites"
+title = "路径收藏"
+icon = "star"
+palette = false
